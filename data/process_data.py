@@ -24,7 +24,7 @@ def load_data(messages_filepath, categories_filepath):
     messages = pd.read_csv(messages_filepath)
     
     # load the csv file of categories dataset
-    categories = pd.read_csv(categories_filepath).to_excel
+    categories = pd.read_csv(categories_filepath)
     
     # merge two datasets by Id attribute
     merged_df = messages.merge(categories, how='inner', on='id')
