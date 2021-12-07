@@ -47,7 +47,7 @@ Flask Web App Data visualizations using Plotly in the web app.
 
 - models
 |- train_classifier.py
-|- classifier.pkl  # saved model 
+|- classifier.rar  # compressed model 
 
 - README.md
 ```
